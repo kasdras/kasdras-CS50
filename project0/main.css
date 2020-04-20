@@ -1,0 +1,52 @@
+body {background-color: chocolate;}
+
+nav {background-color: #aeaca8; color: #ffffff;}
+
+        nav a {padding: 5px 10px 5px 20px; border: red;}
+        #nav {height: 100px;}
+        .nav {background-color: gold; background-image: url(./Koala.jpg)}
+
+        aside {border: 1px solid #aeaca8; border-radius: 20px; margin-top: 10px; margin-bottom: 20px;}
+#ronaldo {height:150px; width: 100%; clear:both;}
+
+p.animal {clear:both; color: coral; }
+
+aside p:hover {color: red; background-color: #efefef;}
+h3:hover {color:  #de6581; background-color: #aeaca8; padding: 10px;} 
+hgroup h3 a  {color: #de6581;}
+
+
+
+#wrapper {background-color: dimgray; border: 2px solid #000000;}
+
+ul {list-style-type: circle;}
+li {color: azure;}
+
+a {text-decoration: none; color:blue;}
+.center {text-align: center;}
+
+footer {background-color: #aeaca8; padding: 10px 5px 5px 10px;}
+
+
+
+#contact {text-align: center; padding-bottom: 10px;}
+
+div hgroup h3, h4.center {border-bottom: 1px solid #eeeeee;}
+footer {padding-left: 50%;}
+#feature {color: dodgerblue;}
+figcaption {color: #e38f98;}
+
+input(type = submit) {text-align: center; background-color: aqua;}
+input.hen, select {width: 30%}
+
+textarea {padding-bottom: 20px; display: block; margin-left: 30%}
+
+td.real {border: 1px solid #214679; padding: 5px 10px;}
+td {border: 1px solid #214679; padding: 2px;}
+table:hover {background-color: darkgoldenrod}
+h5 {margin-top: 0px;}
+
+.result {width: 20px; height: 15px; margin: 10px;}
+
+#full {margin-left: 10%}
+hgroup h5 {text-align: center; margin: 0px; border-bottom-color: darkblue}

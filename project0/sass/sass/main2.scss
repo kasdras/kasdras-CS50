@@ -1,0 +1,45 @@
+$color : lawngreen;
+$font-family : cursive;
+
+a,h5,p,ficaption,td,label,legend,li{
+    font-family: $font-family;
+};
+
+hgroup {
+    h3 {
+        color: $color;
+        font-family: $font-family
+    }
+    h5 {
+        text-align: center;
+        margin: 0px;
+        border-bottom-color: darkblue;
+    }
+};
+
+h4 {
+    color: $color;
+};
+
+%messg {
+    text-align: center;
+};
+
+.center {
+    @extend %messg
+        };
+
+%headcon {
+    border: 1px solid #aeaca8;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+};
+
+#headlines {
+    @extend %headcon;
+        };
+
+#contact {
+    @extend %headcon;
+        };

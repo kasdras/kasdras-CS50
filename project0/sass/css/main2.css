@@ -1,0 +1,24 @@
+a, h5, p, ficaption, td, label, legend, li {
+  font-family: cursive; }
+
+hgroup h3 {
+  color: lawngreen;
+  font-family: cursive; }
+hgroup h5 {
+  text-align: center;
+  margin: 0px;
+  border-bottom-color: darkblue; }
+
+h4 {
+  color: lawngreen; }
+
+.center {
+  text-align: center; }
+
+#headlines, #contact {
+  border: 1px solid #aeaca8;
+  border-radius: 20px;
+  margin-top: 10px;
+  margin-bottom: 20px; }
+
+/*# sourceMappingURL=main2.css.map */
