@@ -1,9 +1,56 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title> testing git</title>
+    <meta name = "viewport" content = "width = device - width, initial-scale = 1.0">
+    <title>Home Page</title>
+    <link href = "./bootstrap-4.4.1-dist/css/bootstrap-grid.css" type ="text/css" rel = "stylesheet">
+    <link href = "./main.css" type ="text/css" rel = "stylesheet">
+    <link href = "./sass/css/main2.css" type ="text/css" rel = "stylesheet">
     </head>
     <body>
-    <h1> this is git
-        </h1></body>
-</html>
+    <div class = "container" id = "wrapper">
+        <div class = "row nav" id = "nav">
+            <p> THIS IS THE LOGO</p>
+        </div>
+        <nav class = "row"><a href = "./test.html">Home</a>
+            <a href = "#feature">Features</a>
+            <a href = "./contact.html">Contact</a>
+            <a href = "">Opportunities</a>
+            <a href = "./register.html">Register</a></nav>
+        <div class = "row" id = "side articles">
+        <aside class = "col-4">
+            <hgroup><h3 class = "center"> Feature Player for the Week</h3></hgroup>
+            <figure><img src = "./ronaldo.jpg" alt = "Ronaldo" id = "ronaldo"><figcaption>Ronaldo</figcaption></figure>
+            <p class = "animal"> The above picture is a koala which is a marsupian.
+            it is majorly found in Australia. it has pouch where it keeps it offspring. The Koala is a wonderful animal.. <a href = "">Read more</a></p>
+            <h4 class = "center"><a href ="">English Premier League Table</a></h4>
+            <table><thead><tr><td>S/N</td><td>Teams</td><td>P</td><td>W</td><td>D</td><td>L</td><td>GD</td><td>Pts</td></tr></thead><tbody><tr><td>1</td><td>Liverpool</td><td>23</td><td>15</td><td>7</td><td>1</td><td>50</td><td>76</td></tr><tr><td>2</td><td>Manchester City</td><td>23</td><td>12</td><td>8</td><td>3</td><td>53</td><td>76</td></tr><tr><td>3</td><td>Leicester City</td><td>23</td><td>10</td><td>9</td><td>4</td><td>50</td><td>76</td></tr></tbody>
+            </table><h5><a href = "./Table.html">View Full Premier League Table</a></h5>
+            <h4 class = "center">Last Week Results</h4>
+            <hgroup><h5>Liverpool <input type = "text" value = "1" disabled class = "result"><input type = "text" value = "1" disabled class = "result">Manchester City</h5><h5>Leicester City<input type = "text" value = "4" disabled class = "result"><input type = "text" value = "1" disabled class = "result">Manchester United</h5></hgroup>
+            </aside>
+        <div class = "col-4" id = "headlines">
+            <hgroup><h3 class = "center">Sport News</h3><h3><a href = "">Ronaldo: I am the best in the world</a></h3><h3><a href = "">Barcelona: Scandal threatens the future of barcelona</a></h3><h3><a href = "">Coronavirus: Premier league to complete league matches</a></h3><h3><a href = "">Seria A: Juventus to be handed the Serie A title</a></h3><h3><a href = "">UK: Boris Johnson out of ICU</a></h3><h3><a href = "">Transfer: Barcelona could include &#36;60m-rated ace in swap deal offer</a></h3><h3><a href = "">Ajax: Ajax set their sights on Barcelona wonderkid</a></h3><h3><a href = "">CAS: Clubs must pay sell-on fees for release-clause transfers</a></h3><h3><a href = "">Sources: La Liga proposal to see Atletico in UEL</a></h3><h4><a href = "">Older News</a></h4></hgroup>
+            </div>
+            <aside class = "col-4" id = "left-section">
+            <hgroup><h3 class = "center"> Business News</h3><h3><a href = "">Ronaldo: I am the best in the world</a></h3><h3><a href = "">Barcelona: Scandal threatens the future of barcelona</a></h3><h3><a href = "">Coronavirus: Premier league to complete league matches</a></h3><h3><a href = "">Seria A: Juventus to be handed the Serie A title</a></h3><h3><a href = "">UK: Boris Johnson out of ICU</a></h3></hgroup>
+                <h4 class = "center">Already has a login ID?</h4>
+                <form method = "post" action = "">
+                <fieldset><legend>Login</legend><label>Username:</label>
+                    <input type = "email" placeholder = "email" name = "email"><br><br><label>Password:</label>
+                    <input type ="password" placeholder="password" name = "password"><br><br><input type ="submit" name = "submit" value = "login"> 
+                    </fieldset>
+                </form>
+                <h4>COVID-19 Guidelines</h4>
+                <ul>
+                <li>Wash your hands thoroughly</li>
+                    <li>Sanitize your hands often</li>
+                    <li>Maintain social distancing</li>
+                    <li>Self-Isolate if you are feeling any symptoms</li>
+                </ul>
+            </aside>
+        </div>
+        <footer class = "row">&copy; 2020</footer>
+        </div>
+    </body>
+    </html>
