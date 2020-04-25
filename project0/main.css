@@ -9,12 +9,11 @@ nav {background-color: #aeaca8; color: #ffffff;}
         aside {border: 1px solid #aeaca8; border-radius: 20px; margin-top: 10px; margin-bottom: 20px;}
 #ronaldo {height:150px; width: 100%; clear:both;}
 
-p.animal {clear:both; color: coral; }
+.animal {color: coral; text-align: justify;}
 
 aside p:hover {color: red; background-color: #efefef;}
 h3:hover {color:  #de6581; background-color: #aeaca8; padding: 10px;} 
 hgroup h3 a  {color: #de6581;}
-
 
 
 #wrapper {background-color: dimgray; border: 2px solid #000000;}
@@ -25,14 +24,14 @@ li {color: azure;}
 a {text-decoration: none; color:blue;}
 .center {text-align: center;}
 
-footer {background-color: #aeaca8; padding: 10px 5px 5px 10px;}
+footer {background-color: #aeaca8; padding: 10px 5px 5px 10px; text-align: center}
 
 
 
 #contact {text-align: center; padding-bottom: 10px;}
 
 div hgroup h3, h4.center {border-bottom: 1px solid #eeeeee;}
-footer {padding-left: 50%;}
+
 #feature {color: dodgerblue;}
 figcaption {color: #e38f98;}
 
@@ -50,3 +49,18 @@ h5 {margin-top: 0px;}
 
 #full {margin-left: 10%}
 hgroup h5 {text-align: center; margin: 0px; border-bottom-color: darkblue}
+
+
+
+@media (max-width: 800.98px) {
+  .table-sm {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+  input {
+      width: 100%;
+    overflow-x: auto;
+  }
+}
