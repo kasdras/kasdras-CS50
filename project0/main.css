@@ -35,23 +35,27 @@ div hgroup h3, h4.center {border-bottom: 1px solid #eeeeee;}
 #feature {color: dodgerblue;}
 figcaption {color: #e38f98;}
 
-input(type = submit) {text-align: center; background-color: aqua;}
-input.hen, select {width: 30%}
+
+
+.form {text-align: center}
+form {margin: auto; width: 30%}
 
 textarea {padding-bottom: 20px; display: block; margin-left: 30%}
 
-td.real {border: 1px solid #214679; padding: 5px 10px;}
+td.real {border: 1px solid #214679; padding: 5px 5px;}
 td {border: 1px solid #214679; padding: 2px;}
 table:hover {background-color: darkgoldenrod}
 h5 {margin-top: 0px;}
 
 .result {width: 20px; height: 15px; margin: 10px;}
 
-#full {margin-left: 10%}
+
 hgroup h5 {text-align: center; margin: 0px; border-bottom-color: darkblue}
 
 
-
+#fulltable {text-align: center;}
+#full {margin: auto auto;} 
+    
 @media (max-width: 800.98px) {
   .table-sm {
     display: block;
@@ -59,7 +63,7 @@ hgroup h5 {text-align: center; margin: 0px; border-bottom-color: darkblue}
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
   }
-  input {
+  form {
       width: 100%;
     overflow-x: auto;
   }
