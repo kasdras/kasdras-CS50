@@ -8,7 +8,7 @@
     <link href = "./sass/css/main2.css" type ="text/css" rel = "stylesheet">
     </head>
     <body>
-    <div class = "container" id = "wrapper">
+    <div class = "container-fluid" id = "wrapper">
         <div class = "row nav" id = "nav">
             <p> THIS IS THE LOGO</p>
         </div>
@@ -18,10 +18,7 @@
             <a href = "">Opportunities</a>
             <a href = "./register.html">Register</a></nav>
         <div class = "row">
-        <aside class = "col-2">
-            
-            </aside>
-            <section class = "col-8" id = "contact">
+            <section class = "col-lg-8 col-sm-12" id = "contact">
             <h4>The followings are our contact addresses</h4>
                 <h5>Headquarter</h5>
                 <p>No 11, Fine Malaika street,</p>
@@ -31,17 +28,26 @@
                 <h5>kazdraz0@gmail.com</h5>
                 <h5>kasdras@yahoo.com</h5>
                 <h3>Drop your questions</h3>
-                <label for = "email">Enter your email:</label><br>
+                <form><label for = "email">Enter your email:</label><br>
                 <input type = "email" name = "email" placeholder = "name@example.com"><br><br>
                 <label for = "comment">Enter your comment:</label>
-                <textarea name = "comments" cols = "40" rows = "10" placeholder = "Enter your comments"></textarea><br>
-                <input type = "submit" value = "submit comment">
+                <textarea name = "comments" cols = "40" rows = "10" placeholder = "Enter your comments" id = "part"></textarea><br>
+                <input type = "button" value = "submit comment" id = "comment">
+                </form>
             </section>
-            <aside class = "col-2">
+            <aside class = "col-lg-4 col-sm-12">
+                <p id = "omment"></p>
             </aside>
         </div>
-         <footer class = "row">&copy; 2020</footer>
+         <footer class = "row"><h5 class = "col-12 foot">&copy; 2020</h5></footer>
         </div>
+        <script type="text/javascript">
+        document.getElementById("comment").onclick = function () {
+        var Kunle = document.getElementById("part");
+        var Bial = document.getElementById("omment");
+        Bial.innerHTML = Kunle.value;    
+        };
+        </script>
     </body>
 </html>
         
