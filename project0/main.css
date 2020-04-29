@@ -2,7 +2,7 @@ body {background-color: chocolate;}
 
 nav {background-color: #aeaca8; color: #ffffff;}
 
-        nav a {padding: 5px 10px 5px 20px; border: red;}
+        nav a {padding: 5px 5px 5px 5px; border: red;}
         #nav {height: 100px;}
         .nav {background-color: gold; background-image: url(./Koala.jpg)}
 
@@ -63,4 +63,7 @@ hgroup h5 {text-align: center; margin: 0px; border-bottom-color: darkblue}
       width: 100%;
     overflow-x: auto;
   }
+    nav a {
+        padding: 3px 3px 3px 3px;
+    }
 }
