@@ -56,10 +56,11 @@ hgroup h5 {text-align: center; margin: 0px; border-bottom-color: darkblue}
 #fulltable {text-align: center;}
 #full {margin: auto auto;} 
     
-@media (max-width: 800.98px) {
+@media (max-width: 800.98px) and (max-width: 500px) {
   .table-sm {
     display: block;
-    width: 100%;
+    margin: auto auto;
+  
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
   }
